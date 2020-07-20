@@ -1,0 +1,24 @@
+{
+  "name": "pagerService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "LOGGER_LEVEL=fatal jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.23",
+    "typescript": "^3.9.7",
+    "@types/uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.5",
+    "jest": "^24.9.0",
+    "jest-mock-extended": "^1.0.9",
+    "ts-jest": "^26.1.3"
+  }
+}
